@@ -1,0 +1,85 @@
+Cybersecurity and Ethical Hacking
+1. Cybersecurity
+Cybersecurity is the practice of protecting computers, networks, systems, and data from unauthorized access, attacks, and damage.
+Goals of Cybersecurity:
+Protect sensitive information
+Prevent cyber attacks
+Ensure system availability
+Maintain data integrity
+2. Ethical Hacking
+Ethical hacking is the authorized process of testing systems for vulnerabilities to improve security. Ethical hackers use the same techniques as malicious hackers but with permission.
+Responsibilities of Ethical Hackers:
+Identify security weaknesses
+Perform penetration testing
+Report vulnerabilities
+Recommend security improvements
+Types of Hackers
+Type
+Description
+White Hat Hackers
+Ethical hackers who help organizations improve security.
+Black Hat Hackers
+Malicious hackers who steal data or damage systems.
+Gray Hat Hackers
+Hack without permission but usually do not have malicious intent.
+Script Kiddies
+Inexperienced hackers using existing tools and scripts.
+Hacktivists
+Hackers motivated by political or social causes.
+State-Sponsored Hackers
+Government-backed hackers conducting cyber espionage or attacks.
+CIA Triad
+The CIA Triad is the foundation of information security.
+Confidentiality
+Ensures that data is accessible only to authorized users.
+Examples:
+Passwords
+Encryption
+Access control
+Integrity
+Ensures that data remains accurate and unaltered.
+Examples:
+Hashing
+Digital signatures
+File permissions
+Availability
+Ensures that systems and data are accessible when needed.
+Examples:
+Backups
+Redundant servers
+Disaster recovery plans
+Plain text
+CIA TRIAD
+     ┌───────────┐
+     │Confidentiality│
+     └─────┬─────┘
+           │
+ ┌─────────┼─────────┐
+ │         │         │
+Integrity  │   Availability
+Common Cyber Threats
+1. Malware
+Malware is malicious software designed to damage or disrupt systems.
+Types:
+Virus
+Worm
+Trojan Horse
+Spyware
+Impact:
+Data theft
+System crashes
+Unauthorized access
+2. Phishing
+Phishing is a social engineering attack where attackers trick users into revealing sensitive information through fake emails, messages, or websites.
+Impact:
+Password theft
+Financial loss
+Identity theft
+3. Ransomware
+Ransomware encrypts files and demands payment to restore access.
+Impact:
+Data loss
+Business disruption
+Financial damage
+Conclusion
+Cybersecurity protects digital assets from threats and attacks. Ethical hackers help organizations identify vulnerabilities before malicious hackers exploit them. The CIA Triad—Confidentiality, Integrity, and Availability—forms the basis of information security, while threats like malware, phishing, and ransomware can compromise systems, steal data, and disrupt operations.
