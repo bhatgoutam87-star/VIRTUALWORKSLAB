@@ -1,0 +1,98 @@
+Penetration Testing Simulation (Safe Lab Environment)
+Objective
+Learn the penetration testing process in a controlled lab environment by setting up a vulnerable machine, performing reconnaissance, identifying vulnerabilities, and understanding how exploitation works. Only perform these activities on systems you own or have explicit permission to test.
+Lab Setup
+Attacker Machine
+Kali Linux
+Vulnerable Target Machine
+Choose a deliberately vulnerable training VM such as:
+Metasploitable 2
+OWASP Broken Web Applications
+Network Configuration
+Use a Host-Only or isolated virtual network.
+Ensure the vulnerable machine is not exposed to the public internet.
+Phase 1: Reconnaissance
+Identify Target IP
+On Kali Linux:
+Bash
+ip addr
+Discover hosts on the local network:
+Bash
+netdiscover
+Information gathered:
+IP addresses
+MAC addresses
+Active hosts
+Phase 2: Scanning
+Port Scanning with Nmap
+Use a basic scan:
+Bash
+nmap <target-ip>
+Service detection:
+Bash
+nmap -sV <target-ip>
+Operating system detection:
+Bash
+nmap -O <target-ip>
+Expected findings may include:
+Open ports
+Running services
+Service versions
+Phase 3: Vulnerability Identification
+Analyze scan results for:
+Outdated software
+Misconfigurations
+Weak services
+Example:
+FTP service running on Port 21
+Telnet service on Port 23
+Old web server versions
+Document:
+Service name
+Version
+Potential security risks
+Phase 4: Understanding Exploitation
+Instead of attacking real systems, use intentionally vulnerable training machines.
+Examples of weaknesses you might observe:
+Default credentials
+Weak passwords
+Unpatched software
+Insecure configurations
+The goal is to understand:
+Why the vulnerability exists
+What security impact it may have
+How it should be remediated
+Phase 5: Post-Assessment
+Document findings:
+Vulnerability
+Risk
+Recommendation
+Weak Password
+High
+Enforce strong passwords
+Outdated Service
+Medium
+Apply updates and patches
+Unnecessary Open Port
+Low
+Disable unused services
+Key Lessons Learned
+Reconnaissance reveals information about systems.
+Scanning identifies open ports and services.
+Vulnerability assessment helps locate weaknesses.
+Misconfigurations often create security risks.
+Proper documentation is essential in professional penetration testing.
+Ethical and Legal Reminder
+Penetration testing should only be conducted:
+On your own systems
+In dedicated lab environments
+With written authorization
+Unauthorized scanning or exploitation of third-party systems may be illegal and unethical.
+Conclusion
+A penetration testing simulation follows a structured process:
+Reconnaissance → Gather information.
+Scanning → Identify services and hosts.
+Vulnerability Assessment → Find weaknesses.
+Controlled Validation → Understand the impact safely.
+Reporting → Document findings and recommendations.
+This workflow helps security professionals understand system weaknesses and improve defenses while maintaining safe and ethical practices.
