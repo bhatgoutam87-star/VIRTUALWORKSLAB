@@ -1,0 +1,119 @@
+OSINT (Open Source Intelligence) Investigation
+Objective
+OSINT (Open Source Intelligence) is the process of collecting and analyzing publicly available information from legal and open sources. It is widely used in cybersecurity, digital forensics, threat intelligence, and investigations.
+What is OSINT?
+OSINT involves gathering information from:
+Search engines
+Social media platforms
+Public records
+Websites and blogs
+Domain registration databases
+News articles
+Public repositories
+The goal is to build a profile of a target's digital footprint without unauthorized access to systems.
+OSINT Investigation Process
+1. Define the Target
+The target may be:
+A company
+A website/domain
+A public organization
+A publicly known individual (within legal and ethical boundaries)
+2. Information Collection
+Search Engines
+Use advanced search operators:
+Plain text
+site:example.com
+filetype:pdf example
+intitle:index of
+Purpose:
+Find documents
+Discover subdomains
+Identify exposed information
+Domain Information
+Use WHOIS:
+Bash
+whois example.com
+Information obtained:
+Registrar
+Registration date
+Name servers
+Domain status
+DNS Enumeration
+Bash
+nslookup example.com
+or
+Bash
+dig example.com
+Information obtained:
+IP addresses
+Mail servers
+DNS records
+Common OSINT Tools
+Tool
+Purpose
+Maltego
+Relationship mapping
+theHarvester
+Email and domain information
+Shodan
+Publicly exposed services
+WHOIS
+Domain ownership information
+Google Search
+General information gathering
+Digital Footprint Analysis
+A digital footprint consists of information available online about a target.
+Examples:
+Company websites
+Employee profiles
+Public email addresses
+Social media accounts
+Public documents
+Technology stacks
+Information Categories
+Technical Information
+IP addresses
+Domains
+Subdomains
+DNS records
+Web technologies
+Organizational Information
+Company structure
+Contact details
+Office locations
+Public Documents
+PDFs
+Presentations
+Reports
+Job postings
+Sample Investigation Report
+Target
+example.com
+Findings
+Domain Information
+Registered domain discovered through WHOIS.
+Public DNS records identified.
+Technology Stack
+Web server information publicly available.
+HTTPS enabled.
+Public Documents
+Multiple PDF documents indexed by search engines.
+Contact Information
+Public support email addresses identified.
+Risk Assessment
+Public documents may expose metadata.
+Contact information could be targeted by phishing attacks.
+Public infrastructure details may aid attackers in reconnaissance.
+Recommendations
+Review publicly exposed information.
+Remove unnecessary public documents.
+Train employees against phishing attacks.
+Regularly monitor digital footprint.
+Ethical Considerations
+OSINT should:
+Use only publicly available information.
+Respect privacy laws and regulations.
+Avoid unauthorized access to systems.
+Follow organizational and legal policies.
+Conclusion
+OSINT is a critical cybersecurity technique that helps investigators gather intelligence from publicly available sources. By analyzing domains, DNS records, public documents, and digital footprints, security professionals can assess potential risks and improve organizational security while remaining within ethical and legal boundaries.
