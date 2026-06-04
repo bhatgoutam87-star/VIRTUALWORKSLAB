@@ -1,0 +1,108 @@
+Networking & Reconnaissance
+Introduction
+Networking is the foundation of cybersecurity. Understanding how devices communicate helps security professionals identify vulnerabilities and assess network security. Reconnaissance is the process of gathering information about a target before conducting a security assessment.
+Fundamental Networking Concepts
+1. IP Address
+An IP (Internet Protocol) address uniquely identifies a device on a network.
+Types:
+IPv4: 192.168.1.1
+IPv6: 2001:db8::1
+Purpose:
+Device identification
+Communication between systems
+2. DNS (Domain Name System)
+DNS translates human-readable domain names into IP addresses.
+Example:
+google.com → 142.250.x.x
+Benefits:
+Easier website access
+Simplifies internet navigation
+3. Ports
+Ports are logical communication endpoints used by applications.
+Port
+Service
+20/21
+FTP
+22
+SSH
+25
+SMTP
+53
+DNS
+80
+HTTP
+443
+HTTPS
+4. Network Protocols
+Protocols define rules for data communication.
+Protocol
+Purpose
+TCP
+Reliable communication
+UDP
+Fast communication
+HTTP
+Web browsing
+HTTPS
+Secure web browsing
+FTP
+File transfer
+SMTP
+Email transmission
+DNS
+Name resolution
+Reconnaissance
+Reconnaissance is the information-gathering phase of a security assessment.
+Types of Reconnaissance
+Passive Reconnaissance
+Gathering information without directly interacting with the target.
+Examples:
+Search engines
+Public websites
+Social media
+WHOIS records
+Active Reconnaissance
+Directly interacting with the target to gather information.
+Examples:
+Ping scans
+Port scans
+DNS queries
+Basic Reconnaissance Commands
+1. Check IP Address
+Bash
+ping example.com
+2. DNS Lookup
+Bash
+nslookup example.com
+3. Display Network Information
+Bash
+ipconfig      # Windows
+ifconfig      # Linux
+4. Trace Network Route
+Bash
+traceroute example.com   # Linux
+tracert example.com      # Windows
+5. View Open Connections
+Bash
+netstat -an
+6. WHOIS Lookup
+Bash
+whois example.com
+Provides:
+Domain owner information
+Registration details
+Name servers
+Common Reconnaissance Tools
+Nmap – Network discovery and port scanning
+Wireshark – Packet analysis
+Nslookup – DNS information gathering
+WHOIS – Domain information lookup
+Traceroute – Route tracking
+Importance of Reconnaissance
+Identifies network structure
+Discovers active hosts and services
+Helps assess security posture
+Provides information for vulnerability assessment
+Supports defensive security planning
+Conclusion
+Networking concepts such as IP addresses, DNS, ports, and protocols are essential for understanding how systems communicate. Reconnaissance is the first step in cybersecurity assessments, involving the collection of publicly available information through tools like Nmap, Wireshark, WHOIS, and Nslookup. Proper reconnaissance helps security professionals understand a target environment while operating within legal and ethical boundaries.
